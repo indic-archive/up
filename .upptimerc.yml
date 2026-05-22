@@ -1,7 +1,6 @@
 owner: indic-archive
 repo: up
 
-# Delay between site checks (ms)
 delay: 5000
 
 sites:
@@ -12,11 +11,12 @@ sites:
     url: https://forum.indicarchive.org
 
   - name: Granthappura
-    url: https://gpura.org/api/items/27 # checking a random item api response
+    url: https://gpura.org/api/items?per_page=1
+    maxResponseTime: 120000
 
   - name: Granthappura Blog
     url: https://gpura.org/blog
-    maxResponseTime: 60000      # WordPress, occasional cold loads
+    maxResponseTime: 60000
 
   - name: Olam Dictionary
     url: https://olam.in
@@ -28,13 +28,12 @@ sites:
     url: https://samam.net
     maxResponseTime: 60000
 
-# Default assignees for downtime issues (edit to your GitHub handles)
 assignees:
   - joicemjoseph
 
 status-website:
   cname: up.indicarchive.org
-  logoUrl: https://indicarchive.org/content/images/size/w640/format/webp/2025/08/splash-5.png
+  logoUrl: https://indicarchive.org/content/images/size/w300/format/webp/2025/08/splash-5.png
   name: "IDAF Status"
   introTitle: "**Indic Digital Archive Foundation** — service status"
   introMessage: "Live status of websites and services run by the Indic Digital Archive Foundation. Learn more [about IDAF](https://indicarchive.org/about) or explore our [projects](https://indicarchive.org/projects)."
