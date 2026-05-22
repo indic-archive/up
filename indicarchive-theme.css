@@ -1,0 +1,103 @@
+/* IDAF brand theme for Upptime status page
+   Matches indicarchive.org (Ghost / Yoffa theme, maroon accent)
+   Save as: assets/indicarchive-theme.css
+   Served at: https://up.indicarchive.org/indicarchive-theme.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Brand palette */
+  --idaf-maroon: #a02c2c;
+  --idaf-maroon-dark: #7a1f1f;
+  --idaf-cream: #faf8f5;
+
+  /* Body */
+  --body-background-color: var(--idaf-cream);
+  --body-text-color: #1a1a1a;
+  --body-text-color-secondary: #5a5a5a;
+
+  /* Nav / header */
+  --nav-background-color: #ffffff;
+  --nav-text-color: #1a1a1a;
+  --nav-border-bottom-color: #e8e2d8;
+
+  /* Cards (monitor rows) */
+  --card-background-color: #ffffff;
+  --card-border-color: #ece6dc;
+  --card-shadow-color: rgba(0, 0, 0, 0.04);
+
+  /* Links and accents */
+  --anchor-color: var(--idaf-maroon);
+  --anchor-hover-color: var(--idaf-maroon-dark);
+
+  /* Buttons */
+  --button-background-color: var(--idaf-maroon);
+  --button-text-color: #ffffff;
+  --button-hover-background-color: var(--idaf-maroon-dark);
+
+  /* Status colors — semantic green/red/amber, with brand-tinted down */
+  --status-up-color: #2d7a3f;
+  --status-down-color: var(--idaf-maroon);
+  --status-degraded-color: #c97a1f;
+
+  /* Typography (match Ghost's stack) */
+  --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header logo — IDAF splash image (landscape ~640×427) */
+header img,
+nav img {
+  max-height: 56px;
+  max-width: 220px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  header img,
+  nav img {
+    max-height: 40px;
+    max-width: 150px;
+  }
+}
+
+/* Headings — tighter tracking, bolder weight, matching Ghost feel */
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+/* Cards / monitor rows — soft borders, subtle elevation */
+.card,
+.summary,
+[class*="card"] {
+  border: 1px solid var(--card-border-color);
+  border-radius: 8px;
+  box-shadow: 0 1px 2px var(--card-shadow-color);
+}
+
+/* Links pick up the maroon */
+a {
+  color: var(--anchor-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--anchor-hover-color);
+  text-decoration: underline;
+}
+
+/* Footer divider for visual separation */
+footer {
+  border-top: 1px solid var(--card-border-color);
+  color: var(--body-text-color-secondary);
+}
