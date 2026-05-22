@@ -1,31 +1,50 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: indic-archive
+repo: up
+
+# Delay between site checks (ms)
+delay: 5000
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Indic Archive
+    url: https://indicarchive.org
+
+  - name: Indic Archive Forum
+    url: https://forum.indicarchive.org
+
+  - name: Granthappura
+    url: https://gpura.org/api/items/27 # checking a random item api response
+
+  - name: Granthappura Blog
+    url: https://gpura.org/blog
+    maxResponseTime: 60000      # WordPress, occasional cold loads
+
+  - name: Olam Dictionary
+    url: https://olam.in
+
+  - name: Alar Dictionary
+    url: https://alar.ink
+
+  - name: Samam Dictionary
+    url: https://samam.net
+    maxResponseTime: 60000
+
+# Default assignees for downtime issues (edit to your GitHub handles)
+assignees:
+  - joicemjoseph
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: up.indicarchive.org
+  logoUrl: https://indicarchive.org/content/images/size/w640/format/webp/2025/08/splash-5.png
+  name: "IDAF Status"
+  introTitle: "**Indic Digital Archive Foundation** — service status"
+  introMessage: "Live status of websites and services run by the Indic Digital Archive Foundation. Learn more [about IDAF](https://indicarchive.org/about) or explore our [projects](https://indicarchive.org/projects)."
+  themeUrl: https://up.indicarchive.org/indicarchive-theme.css
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: IDAF
+      href: https://indicarchive.org
+    - title: Blog
+      href: https://indicarchive.org/blog
+    - title: Granthappura
+      href: https://gpura.org
