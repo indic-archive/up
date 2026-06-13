@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/indicarchive.org.ico",
     "slug": "indic-archive",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.25%",
+    "uptimeDay": "83.01%",
+    "uptimeWeek": "97.57%",
+    "uptimeMonth": "99.25%",
+    "uptimeYear": "99.25%",
     "time": 831,
     "timeDay": 3043,
     "timeWeek": 1272,
     "timeMonth": 831,
     "timeYear": 831,
     "dailyMinutesDown": {
-      "2026-06-13": 1
+      "2026-06-13": 245
     }
   },
   {
@@ -44,19 +44,19 @@
     "url": "https://gpura.org/api/items?per_page=1",
     "icon": "https://icons.duckduckgo.com/ip3/gpura.org.ico",
     "slug": "granthappura",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 614,
-    "timeDay": 534,
-    "timeWeek": 662,
-    "timeMonth": 614,
-    "timeYear": 614,
+    "status": "up",
+    "uptime": "99.25%",
+    "uptimeDay": "83.07%",
+    "uptimeWeek": "97.58%",
+    "uptimeMonth": "99.25%",
+    "uptimeYear": "99.25%",
+    "time": 621,
+    "timeDay": 622,
+    "timeWeek": 677,
+    "timeMonth": 621,
+    "timeYear": 621,
     "dailyMinutesDown": {
-      "2026-06-13": 1
+      "2026-06-13": 244
     }
   },
   {
@@ -64,19 +64,19 @@
     "url": "https://gpura.org/blog",
     "icon": "https://icons.duckduckgo.com/ip3/gpura.org.ico",
     "slug": "granthappura-blog",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 953,
-    "timeDay": 578,
-    "timeWeek": 848,
-    "timeMonth": 953,
-    "timeYear": 953,
+    "status": "up",
+    "uptime": "99.25%",
+    "uptimeDay": "83.08%",
+    "uptimeWeek": "97.58%",
+    "uptimeMonth": "99.25%",
+    "uptimeYear": "99.25%",
+    "time": 956,
+    "timeDay": 730,
+    "timeWeek": 869,
+    "timeMonth": 956,
+    "timeYear": 956,
     "dailyMinutesDown": {
-      "2026-06-13": 0
+      "2026-06-13": 244
     }
   },
   {
