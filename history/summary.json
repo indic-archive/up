@@ -103,9 +103,9 @@
     "url": "https://alar.ink",
     "icon": "https://icons.duckduckgo.com/ip3/alar.ink.ico",
     "slug": "alar-dictionary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -114,26 +114,28 @@
     "timeWeek": 796,
     "timeMonth": 795,
     "timeYear": 771,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-19": 0
+    }
   },
   {
     "name": "Samam Dictionary",
     "url": "https://samam.net",
     "icon": "https://icons.duckduckgo.com/ip3/samam.net.ico",
     "slug": "samam-dictionary",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 768,
-    "timeDay": 726,
-    "timeWeek": 732,
-    "timeMonth": 743,
-    "timeYear": 768,
+    "status": "up",
+    "uptime": "99.81%",
+    "uptimeDay": "89.02%",
+    "uptimeWeek": "98.43%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.81%",
+    "time": 769,
+    "timeDay": 792,
+    "timeWeek": 747,
+    "timeMonth": 748,
+    "timeYear": 769,
     "dailyMinutesDown": {
-      "2026-07-19": 0
+      "2026-07-19": 158
     }
   }
 ]
