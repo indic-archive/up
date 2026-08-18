@@ -4,17 +4,17 @@
     "url": "https://indicarchive.org",
     "icon": "https://icons.duckduckgo.com/ip3/indicarchive.org.ico",
     "slug": "indic-archive",
-    "status": "down",
-    "uptime": "97.01%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "72.60%",
-    "uptimeMonth": "93.40%",
-    "uptimeYear": "97.01%",
-    "time": 949,
-    "timeDay": 1042,
-    "timeWeek": 624,
-    "timeMonth": 1172,
-    "timeYear": 949,
+    "status": "up",
+    "uptime": "97.00%",
+    "uptimeDay": "98.40%",
+    "uptimeWeek": "72.38%",
+    "uptimeMonth": "93.35%",
+    "uptimeYear": "97.00%",
+    "time": 951,
+    "timeDay": 1070,
+    "timeWeek": 670,
+    "timeMonth": 1171,
+    "timeYear": 951,
     "dailyMinutesDown": {
       "2026-06-14": 528,
       "2026-06-13": 377,
@@ -22,7 +22,7 @@
       "2026-08-16": 1054,
       "2026-08-15": 1440,
       "2026-08-14": 267,
-      "2026-08-18": 1
+      "2026-08-18": 23
     }
   },
   {
