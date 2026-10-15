@@ -99,18 +99,20 @@
     "url": "https://olam.in",
     "icon": "https://icons.duckduckgo.com/ip3/olam.in.ico",
     "slug": "olam-dictionary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 372,
-    "timeDay": 381,
-    "timeWeek": 403,
-    "timeMonth": 347,
+    "timeDay": 390,
+    "timeWeek": 402,
+    "timeMonth": 349,
     "timeYear": 372,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-15": 0
+    }
   },
   {
     "name": "Alar Dictionary",
